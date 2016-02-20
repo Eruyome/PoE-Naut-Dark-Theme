@@ -3296,7 +3296,9 @@ a[href$="/spoiler"]:hover, a[href$="#spoiler"]:hover, a[href$="/s"]:hover, a[hre
   min-width: 29px !important;
   height: 16px;
   background: url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/master/Images/asc-classes-sprite.png") no-repeat scroll 0 0 transparent;
-  background-size: 91px; }
+  background-size: 91px;
+  border-radius: 2px;
+  border: 1px solid #151313; }
 
 .flair-asc-slayer {
   background-position: 0 0; }
@@ -3308,55 +3310,55 @@ a[href$="/spoiler"]:hover, a[href$="#spoiler"]:hover, a[href$="/s"]:hover, a[hre
   background-position: -62px 0; }
 
 .flair-asc-assassin {
-  background-position: 0 -18px; }
+  background-position: 0 -17px; }
 
 .flair-asc-saboteur {
-  background-position: -31px -18px; }
+  background-position: -31px -17px; }
 
 .flair-asc-trickster {
-  background-position: -62px -18px; }
+  background-position: -62px -17px; }
 
 .flair-asc-juggernaut {
-  background-position: 0 -35px; }
+  background-position: 0 -34px; }
 
 .flair-asc-berserker {
-  background-position: -31px -35px; }
+  background-position: -31px -34px; }
 
 .flair-asc-chieftain {
-  background-position: -62px -35px; }
+  background-position: -62px -34px; }
 
 .flair-asc-necromancer {
-  background-position: 0 -52px; }
+  background-position: 0 -51px; }
 
 .flair-asc-occultist {
-  background-position: -31px -52px; }
+  background-position: -31px -51px; }
 
 .flair-asc-elementalist {
-  background-position: -62px -52px; }
+  background-position: -62px -51px; }
 
 .flair-asc-deadeye {
-  background-position: 0 -69px; }
+  background-position: 0 -68px; }
 
 .flair-asc-raider {
-  background-position: -31px -69px; }
+  background-position: -31px -68px; }
 
 .flair-asc-pathfinder {
-  background-position: -62px -69px; }
+  background-position: -62px -68px; }
 
 .flair-asc-inquisitor {
-  background-position: 0 -86px; }
+  background-position: 0 -85px; }
 
 .flair-asc-hierophant {
-  background-position: -31px -86px; }
+  background-position: -31px -85px; }
 
 .flair-asc-guardian {
-  background-position: -62px -86px; }
+  background-position: -62px -85px; }
 
 .flair-asc-scion {
-  background-position: 0 -103px; }
+  background-position: 0 -102px; }
 
 .flair-asc-unannounced {
-  background-position: -62px -103px; }
+  background-position: -62px -102px; }
 
 .flair-ambush {
   display: inline-block !important;
