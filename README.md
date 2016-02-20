@@ -12,6 +12,13 @@ Dark [Naut](https://www.reddit.com/r/naut) Theme for the [Path of Exile subreddi
 4. For a better experience install the following Fonts on your System: [Fontin](http://www.fontsquirrel.com/fonts/fontin) and Fontin SmallCaps (included).
 5. Profit.
 
+## Updates  
+
+To update the Userstyle do one of the following:  
+
+1. Visit the [User-Style here](https://userstyles.org/styles/124480/path-of-exile-reddit-dark-theme) again, it offers you to update your installed style if an update is available.
+2. In the Stylish browser extension you can manage installed styles. There you have some options to manually update it, search for updates or enable auto-updates (The extensions for firefox and chrome are a bit different).
+
 ## Screenshots
 
 ![Screenshot](/screenshots/scr-01-min.png?raw=true "Screenshot 01") 
