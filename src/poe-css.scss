@@ -2478,6 +2478,9 @@ div {
 .link .md :not(pre)>code {
 	background-color: inherit;
 }
+.link .md pre {
+	background-color: inherit !important;
+}
 .md hr {
 	border: 1px solid $color_font_default;
 }

@@ -1611,6 +1611,9 @@ div.titlebox span.number:after {
 .link .md :not(pre) > code {
   background-color: inherit; }
 
+.link .md pre {
+  background-color: inherit !important; }
+
 .md hr {
   border: 1px solid #a38d6d; }
 
