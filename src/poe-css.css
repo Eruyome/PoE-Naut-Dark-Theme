@@ -1218,10 +1218,10 @@ a {
   left: 50% !important;
   margin-left: -125px;
   padding: 32px !important;
-  width: 250px !important;
-  border: none;
+  width: 300px !important;
   border-radius: 2px;
-  box-shadow: 0 0 16px rgba(0, 0, 0, 0.12); }
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.12);
+  background-color: #1a1b18; }
   .flairselector h2 {
     margin-bottom: 4px;
     background-color: transparent;
@@ -1231,7 +1231,7 @@ a {
     font-weight: normal;
     font-size: 18px; }
   .flairselector li:hover {
-    background-color: #f5f8f9;
+    background-color: #181818;
     border: 0 solid; }
   .flairselector li.selected {
     border: none;
@@ -1241,7 +1241,7 @@ a {
     font-size: 11px; }
   .flairselector form {
     padding-top: 12px;
-    border-top: 1px solid #f7f7f7; }
+    border-top: 1px solid #2C2C2C; }
     .flairselector form .flairselection {
       text-align: left; }
       .flairselector form .flairselection:before {
@@ -1285,7 +1285,7 @@ a {
     margin-left: -9px;
     opacity: 0.5; }
   .flairselector.drop-choices.active {
-    border: 1px solid #e2e2e2; }
+    border: 1px solid #2C2C2C; }
   .flairselector .flairoptionpane ul li {
     padding: 0 !important;
     margin: 4px 0; }
@@ -3297,6 +3297,73 @@ a[href$="/spoiler"]:hover, a[href$="#spoiler"]:hover, a[href$="/s"]:hover, a[hre
   border-radius: 2px !important;
   font-weight: 200 !important; }
 
+.flair-asc-slayer, .flair-asc-gladiator, .flair-asc-champion, .flair-asc-assassin, .flair-asc-saboteur, .flair-asc-trickster, .flair-asc-juggernaut, .flair-asc-berserker, .flair-asc-chieftain, .flair-asc-necromancer, .flair-asc-occultist, .flair-asc-elementalist, .flair-asc-deadeye, .flair-asc-raider, .flair-asc-pathfinder, .flair-asc-inquisitor, .flair-asc-hierophant, .flair-asc-guardian, .flair-asc-scion, .flair-asc-unannounced {
+  content: "";
+  text-indent: 60px;
+  width: 55px;
+  height: 30px;
+  background: url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/master/Images/asc-class-sprite.png") no-repeat scroll 0 0 transparent; }
+
+.flair-asc-slayer {
+  background-position: 0 0; }
+
+.flair-asc-gladiator {
+  background-position: -57px 0; }
+
+.flair-asc-champion {
+  background-position: -114px 0; }
+
+.flair-asc-assassin {
+  background-position: 0 -32px; }
+
+.flair-asc-saboteur {
+  background-position: -57px -32px; }
+
+.flair-asc-trickster {
+  background-position: -114px -32px; }
+
+.flair-asc-juggernaut {
+  background-position: 0 -64px; }
+
+.flair-asc-berserker {
+  background-position: -57px -64px; }
+
+.flair-asc-chieftain {
+  background-position: -114px -64px; }
+
+.flair-asc-necromancer {
+  background-position: 0 -96px; }
+
+.flair-asc-occultist {
+  background-position: -57px -96px; }
+
+.flair-asc-elementalist {
+  background-position: -114px -96px; }
+
+.flair-asc-deadeye {
+  background-position: 0 -128px; }
+
+.flair-asc-raider {
+  background-position: -57px -128px; }
+
+.flair-asc-pathfinder {
+  background-position: -114px -128px; }
+
+.flair-asc-inquisitor {
+  background-position: 0 -160px; }
+
+.flair-asc-hierophant {
+  background-position: -57px -160px; }
+
+.flair-asc-guardian {
+  background-position: -114px -160px; }
+
+.flair-asc-scion {
+  background-position: 0 -192px; }
+
+.flair-asc-unannounced {
+  background-position: -114px -192px; }
+
 .flair-ambush {
   display: inline-block !important;
   font-family: verdana, serif !important;
@@ -3550,6 +3617,21 @@ a.author[href$="/AutoModerator"], a.author[href$="/Phenxx"], a.author[href$="/la
 a.author[href$="/GoogaNautGod"], a.author[href$="/Msmit71"], a.author[href$="/MeanwhileInSAfrica"],
 a.author[href$="/Oos-PoE"] {
   color: #af6025;
+  font-weight: bold; }
+
+a.author[href$="/chris_wilson"],
+a.author[href$="/Bex_GGG"],
+a.author[href$="/Negitivefrags"],
+a.author[href$="/qarldev"],
+a.author[href$="/BrianWeissman_GGG"],
+a.author[href$="/Rory_Rackham"],
+a.author[href$="/Omnitect"],
+a.author[href$="/Mark_GGG"],
+a.author[href$="/Daniel_GGG"],
+a.author[href$="/Blake_GGG"],
+a.author[href$="/RhysGGG"],
+a.author[href$="/Dan_GGG"] {
+  color: red !important;
   font-weight: bold; }
 
 /*# sourceMappingURL=poe-css.css.map */

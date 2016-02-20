@@ -129,7 +129,7 @@ $color_font_link_primary03: #4258ca;
 $color_font_link_primary04: #667df0;
 $color_font_link_primary05: rgba(255,255,255,0.6);
 $color_font_link_primary06: #ce4500;
- 
+
 //fonts
 $font_arial : "Arial";
 $font_sans : "Sans-serif";
@@ -187,7 +187,7 @@ $url_10: url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/mast
 //$url_11: url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/master/Images/poe-thumb.png");
 $url_11: url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/master/Images/poe-thumb-asc.png");
 $url_12: url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/master/Images/weapon-spacer.png");
-
+$url_13: url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/master/Images/asc-class-sprite.png");
 //@extend-elements
 //original selectors
 //*, *:before, *:after
@@ -1912,10 +1912,10 @@ button {
 	left: 50% !important;
 	margin-left: -125px;
 	padding: 32px !important;
-	width: 250px !important;
-	border: none;
+	width: 300px !important;
 	border-radius: 2px;
 	box-shadow: 0 0 16px $color_42;
+	background-color: $color_comment_even;
 	h2 {
 		margin-bottom: 4px;
 		background-color: transparent;
@@ -1927,7 +1927,7 @@ button {
 	}
 	li {
 		&:hover {
-			background-color: $color_57;
+			background-color: $color_button_bg_hover;
 			border: 0 solid;
 		}
 		&.selected {
@@ -1941,7 +1941,7 @@ button {
 	}
 	form {
 		padding-top: 12px;
-		border-top: 1px solid $color_58;
+		border-top: 1px solid $color_button_border;
 		.flairselection {
 			text-align: left;
 			&:before {
@@ -1998,7 +1998,7 @@ button {
 		opacity: 0.5;
 	}
 	&.drop-choices.active {
-		border: 1px solid $color_56;
+		border: 1px solid $color_button_border;
 	}
 	.flairoptionpane ul li {
 		padding: 0 !important;
@@ -4708,6 +4708,95 @@ a {
 	font-weight: 200 !important;
 }
 
+.flair-asc-slayer, .flair-asc-gladiator, .flair-asc-champion, .flair-asc-assassin, .flair-asc-saboteur, .flair-asc-trickster, .flair-asc-juggernaut, .flair-asc-berserker, .flair-asc-chieftain, .flair-asc-necromancer, .flair-asc-occultist, .flair-asc-elementalist, .flair-asc-deadeye, .flair-asc-raider, .flair-asc-pathfinder, .flair-asc-inquisitor, .flair-asc-hierophant, .flair-asc-guardian, .flair-asc-scion, .flair-asc-unannounced {
+	content: "";
+	text-indent: 60px;
+	width: 55px;
+	height: 30px;
+	background: $url_13 no-repeat scroll 0 0 transparent;
+}
+
+.flair-asc-slayer {
+	background-position: 0 0;
+}
+
+.flair-asc-gladiator {
+	background-position: -57px 0;
+}
+
+.flair-asc-champion {
+	background-position: -114px 0;
+}
+
+.flair-asc-assassin {
+	background-position: 0 -32px;
+}
+
+.flair-asc-saboteur {
+	background-position: -57px -32px;
+}
+
+.flair-asc-trickster {
+	background-position: -114px -32px;
+}
+
+.flair-asc-juggernaut {
+	background-position: 0 -64px;
+}
+
+.flair-asc-berserker {
+	background-position: -57px -64px;
+}
+
+.flair-asc-chieftain {
+	background-position: -114px -64px;
+}
+
+.flair-asc-necromancer {
+	background-position: 0 -96px;
+}
+
+.flair-asc-occultist {
+	background-position: -57px -96px;
+}
+
+.flair-asc-elementalist {
+	background-position: -114px -96px;
+}
+
+.flair-asc-deadeye {
+	background-position: 0 -128px;
+}
+
+.flair-asc-raider {
+	background-position: -57px -128px;
+}
+
+.flair-asc-pathfinder {
+	background-position: -114px -128px;
+}
+
+.flair-asc-inquisitor {
+	background-position: 0 -160px;
+}
+
+.flair-asc-hierophant {
+	background-position: -57px -160px;
+}
+
+.flair-asc-guardian {
+	background-position: -114px -160px;
+}
+
+.flair-asc-scion {
+	background-position: 0 -192px;
+}
+
+.flair-asc-unannounced {
+	background-position: -114px -192px;
+}
+
+
 .flair-ambush {
 	display: inline-block !important;
 	font-family: verdana, serif !important;
@@ -4994,4 +5083,20 @@ a.author[href$="/Oos-PoE"]
 {
 	color: $color_unique;
 	font-weight:bold;
+}
+
+a.author[href$="/chris_wilson"],
+a.author[href$="/Bex_GGG"],
+a.author[href$="/Negitivefrags"],
+a.author[href$="/qarldev"],
+a.author[href$="/BrianWeissman_GGG"],
+a.author[href$="/Rory_Rackham"],
+a.author[href$="/Omnitect"],
+a.author[href$="/Mark_GGG"],
+a.author[href$="/Daniel_GGG"],
+a.author[href$="/Blake_GGG"],
+a.author[href$="/RhysGGG"],
+a.author[href$="/Dan_GGG"]
+{
+	color: red!important; font-weight: bold;
 }
