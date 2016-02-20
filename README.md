@@ -27,7 +27,7 @@ If you want to report some bugs or make some suggestions please create an issue 
 
 ## Tips  
 
-If you don't like the alternating colors for comments (child-comments), got to:  
+If you don't like the alternating colors for comments (child-comments), go to:  
 `Reddit Enhancement Suite options -> Appearance -> Style Tweaks -> disable "commentBoxes"`
 > Highlights comment boxes for easier reading / placefinding in large threads.
 
