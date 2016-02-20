@@ -25,6 +25,12 @@ To update the Userstyle do one of the following:
 
 If you want to report some bugs or make some suggestions please create an issue here [Github Issues](https://github.com/Eruyome/PoE-Naut-Dark-Theme/issues)
 
+## Tips  
+
+If you don't like the alternating colors for comments (child-comments), got to:  
+`Reddit Enhancement Suite options -> Appearance -> Style Tweaks -> disable "commentBoxes"`
+> Highlights comment boxes for easier reading / placefinding in large threads.
+
 ## Screenshots
 
 ![Screenshot](/screenshots/scr-01-min.png?raw=true "Screenshot 01") 
