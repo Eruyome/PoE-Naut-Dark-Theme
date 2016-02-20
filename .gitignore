@@ -1,0 +1,6 @@
+*.project
+*.idea
+*.css
+*.css.map
+/old_images
+/images/uncompressed
