@@ -7,6 +7,7 @@
 $color_0: #000;
 $color_3: #0f0f0f; //background
 $color_comment_even : #1a1b18;
+$color_even : #1a1b18;
 $color_content_border: #151313; //141414
 $color_font_headline: #DFCF99;
 $color_font_title: #cec59f;
@@ -23,6 +24,7 @@ $color_40: #7CB29C ; //#27b062
 $color_unique: #af6025;
 $color_font_footer : #4D4A45;
 $color_font_footer_hover: #6D6A65;
+$color_sr_header_bg : rgba(0,0,0,0.1);
 
 $color_button_border: #2C2C2C;
 $color_button_bg: #0F0F0F;
@@ -187,7 +189,7 @@ $url_10: url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/mast
 //$url_11: url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/master/Images/poe-thumb.png");
 $url_11: url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/master/Images/poe-thumb-asc.png");
 $url_12: url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/master/Images/weapon-spacer.png");
-$url_13: url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/master/Images/asc-class-sprite.png");
+$url_13: url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/master/Images/asc-classes-sprite.png");
 //@extend-elements
 //original selectors
 //*, *:before, *:after
@@ -976,7 +978,7 @@ button {
 	width: 0;
 }
 #sr-header-area {
-	background-color: $color_font_link_primary3;
+	background-color: $color_sr_header_bg;
 	border: none;
 	transition: all 0.15s ease;
 	height: 24px;
@@ -2195,12 +2197,10 @@ button {
 		top: 4px;
 	}
 	#sr-header-area a.RESShortcutsCurrentSub {
-		color: $color_3 !important;
-		border-bottom: 2px solid $color_3;
+		color: $color_font_title !important;
 	}
 	#RESSubredditGroupDropdown .RESShortcutsCurrentSub a {
-		color: $color_3 !important;
-		border-bottom: 2px solid $color_3;
+		color: $color_font_title !important;
 	}
 	.content .RESBigEditorPop {
 		background-color: rgba(0, 0, 0, 0);
@@ -4219,58 +4219,48 @@ ul.report-reasons {
 .flat-vert.title {
 	color: $color_20;
 }
-$color_even : #1a1b18;
+
 html.res-commentBoxes .comment {
 	margin-left: 0 !important;
 	margin-right: 0 !important;
+}
+
+.res:not(.res-nightmode) .commentarea .comment {
 	background-color: $color_3 !important;
 	.comment {
 		background-color: $color_even !important;
-	}
-}
-.res-commentBoxes .comment .comment .comment {
-	background-color: $color_3 !important;
-	.comment .comment {
-		background-color: $color_3 !important;
-		.comment .comment {
-			background-color: $color_3 !important;
-			.comment .comment {
-				background-color: $color_3 !important;
-			}
-		}
-	}
-}
-
-.res-commentBoxes .comment .comment {
-	background-color: $color_even !important;
-	.comment {
 		.comment {
-			background-color: $color_even !important;
+			background-color: $color_3 !important;
 			.comment {
+				background-color: $color_even !important;
 				.comment {
-					background-color: $color_even !important;
+					background-color: $color_3 !important;
 					.comment {
+						background-color: $color_even !important;
 						.comment {
-							background-color: $color_even !important;
+							background-color: $color_3 !important;
 							.comment {
+								background-color: $color_even !important;
 								.comment {
-									background-color: $color_even !important;
+									background-color: $color_3 !important;
+									.comment {
+										background-color: $color_even !important;
+										.comment {
+											background-color: $color_3 !important;
+											.comment {
+												background-color: $color_even !important;
+											}
+										}
+									}
 								}
-								background-color: $color_3 !important;
 							}
 						}
-						background-color: $color_3 !important;
 					}
 				}
-				background-color: $color_3 !important;
 			}
 		}
-		background-color: $color_3 !important;
 	}
 }
-
-
-
 
 .markdownEditor .edit-btn:not(.btn-macro) {
 	border: 0 solid !important;
@@ -4710,10 +4700,12 @@ a {
 
 .flair-asc-slayer, .flair-asc-gladiator, .flair-asc-champion, .flair-asc-assassin, .flair-asc-saboteur, .flair-asc-trickster, .flair-asc-juggernaut, .flair-asc-berserker, .flair-asc-chieftain, .flair-asc-necromancer, .flair-asc-occultist, .flair-asc-elementalist, .flair-asc-deadeye, .flair-asc-raider, .flair-asc-pathfinder, .flair-asc-inquisitor, .flair-asc-hierophant, .flair-asc-guardian, .flair-asc-scion, .flair-asc-unannounced {
 	content: "";
-	text-indent: 60px;
-	width: 55px;
-	height: 30px;
+	text-indent: 34px;
+	width: 29px;
+	min-width: 29px !important;
+	height: 16px;
 	background: $url_13 no-repeat scroll 0 0 transparent;
+	background-size: 91px;
 }
 
 .flair-asc-slayer {

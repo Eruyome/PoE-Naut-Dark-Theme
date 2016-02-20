@@ -537,7 +537,7 @@ a {
   width: 0; }
 
 #sr-header-area {
-  background-color: rgba(0, 0, 0, 0.08);
+  background-color: rgba(0, 0, 0, 0.1);
   border: none;
   transition: all 0.15s ease;
   height: 24px;
@@ -1426,11 +1426,9 @@ a {
 .res a.beta-link {
   top: 4px; }
 .res #sr-header-area a.RESShortcutsCurrentSub {
-  color: #0f0f0f !important;
-  border-bottom: 2px solid #0f0f0f; }
+  color: #cec59f !important; }
 .res #RESSubredditGroupDropdown .RESShortcutsCurrentSub a {
-  color: #0f0f0f !important;
-  border-bottom: 2px solid #0f0f0f; }
+  color: #cec59f !important; }
 .res .content .RESBigEditorPop {
   background-color: transparent;
   line-height: inherit;
@@ -2918,38 +2916,32 @@ ul.report-reasons {
 
 html.res-commentBoxes .comment {
   margin-left: 0 !important;
-  margin-right: 0 !important;
+  margin-right: 0 !important; }
+
+.res:not(.res-nightmode) .commentarea .comment {
   background-color: #0f0f0f !important; }
-  html.res-commentBoxes .comment .comment {
+  .res:not(.res-nightmode) .commentarea .comment .comment {
     background-color: #1a1b18 !important; }
-
-.res-commentBoxes .comment .comment .comment {
-  background-color: #0f0f0f !important; }
-  .res-commentBoxes .comment .comment .comment .comment .comment {
-    background-color: #0f0f0f !important; }
-    .res-commentBoxes .comment .comment .comment .comment .comment .comment .comment {
+    .res:not(.res-nightmode) .commentarea .comment .comment .comment {
       background-color: #0f0f0f !important; }
-      .res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment {
-        background-color: #0f0f0f !important; }
-
-.res-commentBoxes .comment .comment {
-  background-color: #1a1b18 !important; }
-  .res-commentBoxes .comment .comment .comment {
-    background-color: #0f0f0f !important; }
-    .res-commentBoxes .comment .comment .comment .comment {
-      background-color: #1a1b18 !important; }
-      .res-commentBoxes .comment .comment .comment .comment .comment {
-        background-color: #0f0f0f !important; }
-        .res-commentBoxes .comment .comment .comment .comment .comment .comment {
-          background-color: #1a1b18 !important; }
-          .res-commentBoxes .comment .comment .comment .comment .comment .comment .comment {
-            background-color: #0f0f0f !important; }
-            .res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment {
-              background-color: #1a1b18 !important; }
-              .res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment {
-                background-color: #0f0f0f !important; }
-                .res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
-                  background-color: #1a1b18 !important; }
+      .res:not(.res-nightmode) .commentarea .comment .comment .comment .comment {
+        background-color: #1a1b18 !important; }
+        .res:not(.res-nightmode) .commentarea .comment .comment .comment .comment .comment {
+          background-color: #0f0f0f !important; }
+          .res:not(.res-nightmode) .commentarea .comment .comment .comment .comment .comment .comment {
+            background-color: #1a1b18 !important; }
+            .res:not(.res-nightmode) .commentarea .comment .comment .comment .comment .comment .comment .comment {
+              background-color: #0f0f0f !important; }
+              .res:not(.res-nightmode) .commentarea .comment .comment .comment .comment .comment .comment .comment .comment {
+                background-color: #1a1b18 !important; }
+                .res:not(.res-nightmode) .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+                  background-color: #0f0f0f !important; }
+                  .res:not(.res-nightmode) .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+                    background-color: #1a1b18 !important; }
+                    .res:not(.res-nightmode) .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+                      background-color: #0f0f0f !important; }
+                      .res:not(.res-nightmode) .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+                        background-color: #1a1b18 !important; }
 
 .markdownEditor .edit-btn:not(.btn-macro) {
   border: 0 solid !important;
@@ -3299,10 +3291,12 @@ a[href$="/spoiler"]:hover, a[href$="#spoiler"]:hover, a[href$="/s"]:hover, a[hre
 
 .flair-asc-slayer, .flair-asc-gladiator, .flair-asc-champion, .flair-asc-assassin, .flair-asc-saboteur, .flair-asc-trickster, .flair-asc-juggernaut, .flair-asc-berserker, .flair-asc-chieftain, .flair-asc-necromancer, .flair-asc-occultist, .flair-asc-elementalist, .flair-asc-deadeye, .flair-asc-raider, .flair-asc-pathfinder, .flair-asc-inquisitor, .flair-asc-hierophant, .flair-asc-guardian, .flair-asc-scion, .flair-asc-unannounced {
   content: "";
-  text-indent: 60px;
-  width: 55px;
-  height: 30px;
-  background: url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/master/Images/asc-class-sprite.png") no-repeat scroll 0 0 transparent; }
+  text-indent: 34px;
+  width: 29px;
+  min-width: 29px !important;
+  height: 16px;
+  background: url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/master/Images/asc-classes-sprite.png") no-repeat scroll 0 0 transparent;
+  background-size: 91px; }
 
 .flair-asc-slayer {
   background-position: 0 0; }
