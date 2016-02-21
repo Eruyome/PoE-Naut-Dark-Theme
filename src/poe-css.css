@@ -970,14 +970,24 @@ a {
   background-image: url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/master/Images/poe-thumb-asc.png");
   background-size: cover; }
 
-.stickied .thumbnail {
-  width: 80px;
-  height: 56px;
-  background: url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/master/Images/spritesheet-asc.png") -96px -48px; }
-.stickied.comment > .entry a {
-  color: #7CB29C !important; }
-.stickied.comment .tagline .stickied-tagline {
-  color: #7CB29C !important; }
+.stickied {
+  border-bottom: 1px solid #1a1b18; }
+  .stickied .thumbnail {
+    background: url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/master/Images/chisel.png") no-repeat;
+    width: 26px;
+    height: 26px;
+    margin-top: 18px;
+    margin-left: 6px; }
+  .stickied div.RES-keyNav-activeElement {
+    padding-left: 0px !important; }
+  .stickied.thing .tagline a.author.moderator[href$="/AutoModerator"] {
+    color: #1a1b18 !important; }
+  .stickied.comment > .entry a {
+    color: #7CB29C !important; }
+  .stickied.comment .tagline .stickied-tagline {
+    color: #7CB29C !important; }
+  .stickied .midcol {
+    display: none; }
 
 .thing .title {
   color: #DFCF99; }

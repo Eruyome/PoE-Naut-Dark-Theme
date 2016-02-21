@@ -190,6 +190,8 @@ $url_10: url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/mast
 $url_11: url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/master/Images/poe-thumb-asc.png");
 $url_12: url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/master/Images/weapon-spacer.png");
 $url_13: url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/master/Images/asc-classes-sprite.png");
+$url_14: url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/master/Images/chisel.png");
+
 //@extend-elements
 //original selectors
 //*, *:before, *:after
@@ -1560,10 +1562,24 @@ button {
 }
 .stickied {
 	.thumbnail {
-		width: 80px;
-		height: 56px;
-		background: $url_1 -096px -048px;
+		//width: 80px;
+		//height: 56px;
+		//background: $url_1 -096px -048px;
+
+		background: $url_14 no-repeat;
+		width: 26px;
+		height: 26px;
+		margin-top: 18px;
+		margin-left: 6px;
 	}
+	div.RES-keyNav-activeElement {
+		padding-left: 0px !important;
+	}
+	&.thing .tagline a.author.moderator[href$="/AutoModerator"] {
+		color: $color_comment_even !important;
+	}
+
+	border-bottom: 1px solid $color_comment_even;
 	&.comment {
 		> .entry a {
 			color: $color_40!important;
@@ -1571,6 +1587,9 @@ button {
 		.tagline .stickied-tagline {
 			color: $color_40!important;
 		}
+	}
+	.midcol {
+		display:none;
 	}
 }
 .thing {
