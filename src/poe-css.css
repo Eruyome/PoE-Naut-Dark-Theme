@@ -386,11 +386,11 @@ a {
       .side .titlebox .md h3 a:active {
         background-color: #0066b2;
         box-shadow: 0 2px 1.5px 0 rgba(0, 0, 0, 0.12), 0 0 4px 0 rgba(0, 0, 0, 0.12); }
-    .side .titlebox .md h4 a {
-      display: none; }
     .side .titlebox .md h4 {
       color: #6D6A65;
       font-family: "FontinRegular", "Fontin Regular", "Fontin", "Book Antiqua", Cambria, Verdana, Arial, Helvetica, sans-serif; }
+    .side .titlebox .md a[href^='http://www.reddit.com/r/pathofexile/'], .side .titlebox .md a[href^='http://dd.reddit.com/r/pathofexile/'] {
+      display: none; }
     .side .titlebox h1.redditname {
       margin-bottom: 6px;
       position: absolute;
@@ -3610,6 +3610,18 @@ a[href$="/spoiler"]:hover, a[href$="#spoiler"]:hover, a[href$="/s"]:hover, a[hre
   display: none; }
 .side a[href="/smallText"] {
   font-size: smaller; }
+.side a[href^='https://pathofexile.com/shop/'] {
+  position: absolute;
+  top: 49px;
+  z-index: 1000;
+  display: inline-block;
+  height: 190px;
+  width: 318px;
+  right: 17px;
+  font-size: 18px;
+  font-family: "FontinRegular", "Fontin Regular", "Fontin", "Book Antiqua", Cambria, Verdana, Arial, Helvetica, sans-serif;
+  text-shadow: 0px 0px 2px #000000;
+  padding: 80px 15px 15px; }
 
 a.author[href$="/slowmyrole19"], a.author[href$="/grangelov"], a.author[href$="/poe_ladder_bot"],
 a.author[href$="/AutoModerator"], a.author[href$="/Phenxx"], a.author[href$="/lakattack0221"],
