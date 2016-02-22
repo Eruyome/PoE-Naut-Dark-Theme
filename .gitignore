@@ -1,5 +1,5 @@
 *.project
 *.idea
 *.css.map
-/old_images
-/images/uncompressed
+/images-uncompressed/old_images
+/node_modules

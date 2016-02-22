@@ -6,9 +6,11 @@
 @font-face {
   font-family: 'FontinRegular';
   src: local("Fontin"), local("Fontin.ttf"); }
+
 @font-face {
   font-family: 'FontinSmallCaps';
   src: local("Fontin SmallCaps"), local("Fontin SmallCaps Standard.ttf"); }
+
 /*
 $url_0: url(%%headerimg%%);
 $url_1: url(%%spritesheet%%);
@@ -671,6 +673,7 @@ a {
 
 #header-img.default-header:hover {
   background-position: -122px 0; }
+
 #header-img:hover {
   background-position: -122px 0; }
 
@@ -694,8 +697,10 @@ a {
   .listing-page .comment .title {
     font-size: 14px;
     margin-left: 8px; }
+
 .listing-page .tabmenu li > a[href$="/controversial/"] {
   display: none !important; }
+
 .listing-page .tabmenu li > a[href$="/promoted/"] {
   display: none !important; }
 
@@ -719,6 +724,7 @@ a {
   .wiki-page .wiki-page-content .md.wiki h4:active {
     background-color: #f4f6f7;
     box-shadow: 0 2px 1.5px 0 rgba(0, 0, 0, 0.12), 0 0 4px 0 rgba(0, 0, 0, 0.12); }
+
 .wiki-page .wikititle {
   background-color: #0f0f0f;
   padding: 9px 16px 10px;
@@ -728,6 +734,7 @@ a {
   font-family: Verdana, Arial, Helvetica, sans-serif;
   text-transform: capitalize;
   margin: 0; }
+
 .wiki-page .pageactions {
   background-color: #0f0f0f;
   margin-left: 16px;
@@ -749,8 +756,10 @@ a {
     color: #DFCF99; }
     .wiki-page .pageactions .wikiaction-current:hover {
       background-color: rgba(0, 0, 0, 0.05); }
+
 .wiki-page .tabmenu li > a[href$="/controversial/"] {
   display: none !important; }
+
 .wiki-page .tabmenu li > a[href$="/promoted/"] {
   display: none !important; }
 
@@ -945,7 +954,7 @@ a {
 
 .thumbnail {
   width: 80px;
-  height: 80px;
+  height: 56px;
   margin: 0 16px 0 0; }
   .thumbnail img {
     min-height: 56px;
@@ -964,6 +973,7 @@ a {
 .thing[data-domain="pathofexile.com"] .thumbnail img {
   border-radius: 50%;
   display: none; }
+
 .thing[data-domain="pathofexile.com"] .thumbnail {
   width: 80px;
   height: 80px;
@@ -1001,24 +1011,31 @@ a {
     color: #DFCF99; }
     .thing .title.click:visited {
       color: #DFCF99; }
+
 .thing.link.stickied a {
   color: #7CB29C !important; }
   .thing.link.stickied a.title {
     color: #7CB29C !important; }
+
 .thing.link.stickied .entry li .comments {
   color: #7CB29C !important; }
+
 .thing.link.stickied .expando-button:hover {
   background-color: #7CB29C !important;
   border-color: #7CB29C !important; }
+
 .thing .entry .usertext-body .expando-button {
   margin-left: 5px !important; }
 
 .content .thing .title:visited {
   color: #6D6A65; }
+
 .content .thing.visited .title {
   color: #6D6A65; }
+
 .content .spacer {
   margin: 0; }
+
 .content .infobar {
   margin: 0 0 16px 0;
   padding: 8px 16px;
@@ -1034,6 +1051,7 @@ a {
     height: 86px; }
     .content .infobar.welcome h1 {
       color: #4d5763; }
+
 .content.submit .info-notice {
   background-color: #1a1b18;
   color: #e8ba7f;
@@ -1048,41 +1066,51 @@ a {
   background-position: -32px -64px !important; }
   .expando-button.image.collapsedExpando:hover {
     background-position: -48px -64px !important; }
+
 .expando-button.image.expanded {
   background-position: -32px -48px !important; }
   .expando-button.image.expanded:hover {
     background-position: -48px -48px !important; }
+
 .expando-button.image.gallery.collapsedExpando {
   background-position: 0px -64px !important; }
   .expando-button.image.gallery.collapsedExpando:hover {
     background-position: -16px -64px !important; }
+
 .expando-button.image.gallery.expanded {
   background-position: -32px -48px !important; }
   .expando-button.image.gallery.expanded:hover {
     background-position: -48px -48px !important; }
+
 .expando-button.video-muted.collapsed {
   background-position: -64px -64px !important; }
   .expando-button.video-muted.collapsed:hover {
     background-position: -80px -64px !important; }
+
 .expando-button.video-muted.expanded {
   background-position: -32px -48px !important; }
   .expando-button.video-muted.expanded:hover {
     background-position: -48px -48px !important; }
+
 .expando-button:hover {
   background-color: #181818;
   border-color: #2C2C2C; }
+
 .expando-button.selftext.collapsed {
   background-position: 0px -48px !important; }
   .expando-button.selftext.collapsed:hover {
     background-position: -16px -48px !important; }
+
 .expando-button.selftext.expanded {
   background-position: -32px -48px !important; }
   .expando-button.selftext.expanded:hover {
     background-position: -48px -48px !important; }
+
 .expando-button.video.collapsed {
   background-position: -64px -48px !important; }
   .expando-button.video.collapsed:hover {
     background-position: -80px -48px !important; }
+
 .expando-button.video.expanded {
   background-position: -32px -48px !important; }
   .expando-button.video.expanded:hover {
@@ -1093,6 +1121,7 @@ a {
   color: #a38d6d;
   font-size: 12px;
   font-family: Verdana, Arial, Helvetica, sans-serif; }
+
 .entry .buttons li {
   line-height: normal; }
   .entry .buttons li a {
@@ -1189,19 +1218,24 @@ a {
 .linkflair-mod .linkflairlabel {
   background-color: #7CB29C;
   color: #0f0f0f; }
+
 .linkflair-mod a {
   color: #7CB29C !important; }
+
 .linkflair-mod .thumbnail.default {
   background: url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/master/Images/spritesheet-asc.png") -96px -48px !important; }
+
 .linkflair-mod .thumbnail.self {
   background: url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/master/Images/spritesheet-asc.png") -96px -48px !important; }
 
 .tagline .stickied-tagline {
   color: #b3b3b3;
   cursor: help; }
+
 .tagline .moderator {
   color: #7CB29C !important;
   font-weight: bold; }
+
 .tagline .submitter {
   font-weight: bold;
   color: #DFCF99; }
@@ -1333,37 +1367,48 @@ a {
   background-color: inherit !important; }
   .res .RES-keyNav-activeElement .md-container {
     background-color: inherit !important; }
+
 .res .entry {
   transition: all 0.10s ease; }
+
 .res .commentarea .thing {
   padding: 16px 16px 0 14px !important;
   border: none !important; }
   .res .commentarea .thing.collapsed {
     padding-bottom: 16px !important; }
+
 .res .commentarea .panestack-title {
   margin-top: 0;
   padding-top: 12px;
   color: #6D6A65; }
   .res .commentarea .panestack-title .title {
     color: #6D6A65; }
+
 .res .commentarea .entry .flat-list {
   margin-bottom: 0;
   padding: 0 0 8px 0; }
+
 .res .commentarea > .usertext {
   margin-top: -76px;
   padding-top: 80px !important; }
+
 .res .comment .entry {
   margin-bottom: 16px; }
+
 .res .comment.collapsed a.expand:after {
   display: none; }
+
 .res .srSep {
   color: rgba(255, 255, 255, 0.45); }
+
 .res #RESShortcutsViewport {
   margin-right: 381px; }
   .res #RESShortcutsViewport #RESShortcuts {
     color: #6D6A65; }
+
 .res #RESShortcutsEditContainer {
   margin-right: 312px; }
+
 .res #header-bottom-right {
   top: 1px;
   border-radius: 0;
@@ -1375,12 +1420,14 @@ a {
       display: none; }
     .res #header-bottom-right .user a {
       font-size: 11px; }
+
 .res #userbarToggle {
   background-color: transparent;
   color: rgba(255, 255, 255, 0.45);
   border-radius: 0;
   border: none;
   left: -32px; }
+
 .res #REScommentNavToggle {
   max-width: 98px;
   overflow: hidden;
@@ -1388,12 +1435,15 @@ a {
   transition: all 0.35s ease; }
   .res #REScommentNavToggle:hover {
     max-width: 100%; }
+
 .res .RESshortcutside:hover {
   background-color: transparent;
   color: #DFCF99; }
+
 .res .RESDashboardToggle:hover {
   background-color: transparent;
   color: #DFCF99; }
+
 .res #progressIndicator {
   width: inherit;
   border-radius: 0;
@@ -1405,6 +1455,7 @@ a {
   height: inherit; }
   .res #progressIndicator h2 {
     color: #4d5763; }
+
 .res .NERPageMarker {
   border-radius: 0;
   border: none;
@@ -1414,6 +1465,7 @@ a {
   color: #cec59f;
   text-shadow: 0px 0px 1px #ac9c5b;
   background-size: 300px; }
+
 .res .thing .tagline .author.submitter {
   padding: 1px 4px;
   border-radius: 1px;
@@ -1423,22 +1475,30 @@ a {
   .res .thing .tagline .author.submitter:hover {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     background-color: #4f8ef7 !important; }
+
 .res .thing .tagline .author.moderator {
   background-color: #7CB29C !important;
   padding: 1px 4px;
   border-radius: 1px; }
+
 .res.comments-page .side {
   margin-top: 414px; }
+
 .res .link .tagline a.voteWeight {
   background-color: transparent !important; }
+
 .res.search-page #header .tabmenu {
   display: none !important; }
+
 .res a.beta-link {
   top: 4px; }
+
 .res #sr-header-area a.RESShortcutsCurrentSub {
   color: #cec59f !important; }
+
 .res #RESSubredditGroupDropdown .RESShortcutsCurrentSub a {
   color: #cec59f !important; }
+
 .res .content .RESBigEditorPop {
   background-color: transparent;
   line-height: inherit;
@@ -1452,25 +1512,32 @@ a {
   height: inherit;
   margin-left: 4px;
   margin-top: 5px; }
+
 .res .titlebox .tagline {
   margin-top: 6px; }
+
 .res .sitetable .sitetable {
   margin-right: 0; }
+
 .res #search #searchexpando {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
   height: auto; }
   .res #search #searchexpando label {
     padding-top: 13px;
     padding-bottom: 13px; }
+
 .res #searchexpando .searchexpando-submit {
   display: none; }
+
 .res h1.hover.redditname {
   overflow: visible !important; }
 
 div.commentarea div.RES-keyNav-activeElement .md {
   background-color: transparent !important; }
+
 div.titlebox span.word {
   display: none; }
+
 div.titlebox span.number:after {
   content: " Exiles"; }
 
@@ -1505,6 +1572,7 @@ div.titlebox span.number:after {
   color: #0f0f0f;
   text-transform: capitalize;
   text-transform: lowercase; }
+
 .toggleButton .toggleOff {
   border-radius: 0;
   border: 1px solid #d7d9dc;
@@ -1518,12 +1586,14 @@ div.titlebox span.number:after {
   z-index: 1001;
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
   background-color: #1a1b18; }
+
 .drop-choices a.choice {
   padding: 12px 24px 12px 12px;
   transition: all 0.1s ease;
   border-bottom: 1px solid #151313; }
   .drop-choices a.choice:hover {
     background-color: #151313 !important; }
+
 .drop-choices form:last-of-type a.choice {
   border-bottom: none; }
 
@@ -1552,12 +1622,14 @@ div.titlebox span.number:after {
   .commentarea .infobar a {
     color: rgba(0, 0, 0, 0.64);
     font-weight: bold; }
+
 .commentarea .panestack-title {
   margin: 10px 0 0;
   border-bottom: 0;
   padding-left: 16px; }
   .commentarea .panestack-title .title {
     color: #4d5763; }
+
 .commentarea .menuarea {
   margin: 0;
   padding-left: 16px;
@@ -1584,12 +1656,14 @@ div.titlebox span.number:after {
     font-weight: normal; }
     .commentarea .menuarea .toggle a:hover {
       color: #DFCF99; }
+
 .commentarea > .usertext {
   margin: -58px 0 16px;
   padding: 64px 16px 16px 16px !important;
   overflow: visible; }
   .commentarea > .usertext textarea:not(:focus) {
     background: url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/master/Images/commentbox.png") no-repeat 50% 50%; }
+
 .commentarea .usertext-edit {
   width: 100%;
   max-width: 504px; }
@@ -1597,16 +1671,20 @@ div.titlebox span.number:after {
     position: relative;
     z-index: 999;
     width: 100%; }
+
 .commentarea .sitetable {
   margin: 0;
   box-shadow: none; }
+
 .commentarea .thing {
   margin: 0 0 8px 0;
   padding: 8px 16px 8px 0; }
+
 .commentarea .child .thing {
   box-shadow: none;
   padding: 4px;
   margin: 12px 0 0; }
+
 .commentarea .comment .midcol {
   margin-top: 2px;
   width: 32px;
@@ -1655,8 +1733,10 @@ div.titlebox span.number:after {
 
 .RESGalleryControls .RESGalleryLabel {
   color: #a38d6d !important; }
+
 .RESGalleryControls .next::after, .RESGalleryControls .previous::after {
   color: #cec59f; }
+
 .RESGalleryControls .next:hover::after, .RESGalleryControls .previous:hover::after {
   color: #e8ba7f; }
 
@@ -1665,6 +1745,7 @@ div.titlebox span.number:after {
 
 #eu-cookie-policy .reddit-infobar {
   padding-right: 118px; }
+
 #eu-cookie-policy .c-btn-primary {
   margin: -2px 16px 0 0; }
 
@@ -1712,8 +1793,10 @@ div.titlebox span.number:after {
       background-position: -64px -36px; }
     .titlebox .users-online .number:after {
       content: " Exiles in Town"; }
+
 .titlebox .number {
   cursor: text; }
+
 .titlebox .fancy-toggle-button {
   margin: 0;
   position: absolute;
@@ -1755,6 +1838,7 @@ div.titlebox span.number:after {
         background-color: #181818; }
       .titlebox .fancy-toggle-button .active.remove:active {
         background-color: #0F0F0F; }
+
 .titlebox:before {
   content: "Subreddit Info";
   display: block;
@@ -1763,6 +1847,7 @@ div.titlebox span.number:after {
   color: #DFCF99;
   font-family: "FontinRegular", "Fontin Regular", "Fontin", "Book Antiqua", Cambria, Verdana, Arial, Helvetica, sans-serif;
   margin: 8px 0; }
+
 .titlebox .tagline {
   font-size: 12px;
   margin: 0; }
@@ -1776,6 +1861,7 @@ div.titlebox span.number:after {
     color: #DFCF99; }
   .titlebox .tagline a.author {
     display: none; }
+
 .titlebox form.toggle {
   background: transparent; }
   .titlebox form.toggle.leavecontributor-button {
@@ -1787,8 +1873,10 @@ div.titlebox span.number:after {
     .titlebox form.toggle.sr_style_toggle label {
       position: relative;
       top: -3px; }
+
 .titlebox form.flairtoggle {
   line-height: 2; }
+
 .titlebox span.subscribers {
   position: absolute;
   z-index: 100;
@@ -1934,12 +2022,15 @@ div.titlebox span.number:after {
     font-size: 16px;
     font-family: "FontinRegular", "Fontin Regular", "Fontin", "Book Antiqua", Cambria, Verdana, Arial, Helvetica, sans-serif;
     content: "Submit Text"; }
+
 .sidebox.submit.submit-link .morelink a:after {
   font-size: 16px;
   font-family: "FontinRegular", "Fontin Regular", "Fontin", "Book Antiqua", Cambria, Verdana, Arial, Helvetica, sans-serif;
   content: "Submit Link"; }
+
 .sidebox .spacer {
   display: none; }
+
 .sidebox.create .morelink {
   position: relative;
   top: 0;
@@ -1969,15 +2060,19 @@ div.titlebox span.number:after {
 
 .md hr {
   border: solid 1px #e5e5e5; }
+
 .md a {
   color: #DFCF99; }
   .md a:visited {
     color: #7d5d8a; }
+
 .md pre {
   padding: 8px; }
+
 .md blockquote {
   border-left: 2px solid #db9f00;
   color: #6D6A65; }
+
 .md h3 {
   color: #DFCF99;
   margin: 16px 0 0; }
@@ -1996,6 +2091,7 @@ div.titlebox span.number:after {
   .comments-page .link .usertext .md hr {
     color: #a38d6d;
     border: solid 1px #1a1b18; }
+
 .comments-page .side {
   margin-top: 400px; }
   .comments-page .side .linkinfo {
@@ -2023,6 +2119,7 @@ div.titlebox span.number:after {
 
 .usertext button {
   margin: 4px 16px 8px 0; }
+
 .usertext .bottom-area {
   width: 504px; }
   .usertext .bottom-area a {
@@ -2031,6 +2128,7 @@ div.titlebox span.number:after {
       color: #DFCF99; }
     .usertext .bottom-area a:hover {
       color: #DFCF99; }
+
 .usertext.grayed .usertext-body {
   margin: 4px 0;
   background-color: transparent;
@@ -2040,15 +2138,18 @@ div.titlebox span.number:after {
 .comment .child {
   border-left: 1px solid #edf1f3;
   margin-top: 0; }
+
 .comment .showreplies {
   border-left: 1px solid #edf1f3;
   margin-top: 0; }
+
 .comment .midcol {
   width: 24px;
   margin-right: 0; }
   .comment .midcol .arrow {
     margin-left: 0;
     margin-bottom: 4px; }
+
 .comment .expand {
   background-color: transparent;
   transition: all 0.15s ease;
@@ -2057,6 +2158,7 @@ div.titlebox span.number:after {
     color: #a38d6d;
     text-decoration: none;
     background-color: #edf1f3; }
+
 .comment .author {
   color: #DFCF99;
   margin-right: 0;
@@ -2064,6 +2166,7 @@ div.titlebox span.number:after {
   .comment .author:hover {
     color: #DFCF99;
     text-decoration: none; }
+
 .comment .score {
   font-size: inherit;
   font-weight: bold;
@@ -2073,9 +2176,11 @@ div.titlebox span.number:after {
     margin: 0 2px;
     vertical-align: middle;
     line-height: 14px; }
+
 .comment .entry .tagline {
   color: #a38d6d;
   font-size: 12px; }
+
 .comment.collapsed a.expand:after {
   content: "ah ";
   position: absolute;
@@ -2088,10 +2193,13 @@ div.titlebox span.number:after {
   border-radius: 2px;
   color: transparent;
   transition: background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1); }
+
 .comment.collapsed a.expand:hover:after {
   background-color: rgba(0, 0, 0, 0.04); }
+
 .comment .usertext .md {
   color: #a38d6d; }
+
 .comment .flat-list li a {
   color: #4D4A47;
   font-weight: normal;
@@ -2099,10 +2207,12 @@ div.titlebox span.number:after {
   .comment .flat-list li a:hover {
     color: #DFCF99;
     text-decoration: none; }
+
 .comment .flat-list li a[onclick*="reply"] {
   color: #DFCF99;
   font-weight: bold;
   font-size: 11px; }
+
 .comment .entry .tagline {
   color: #4D4A47; }
 
@@ -2143,21 +2253,26 @@ div.titlebox span.number:after {
 
 .submit-page #header {
   height: 144px; }
+
 .submit-page #header-bottom-left {
   top: 86px;
   left: 50%;
   margin-left: -262px; }
+
 .submit-page .content {
   margin: 32px auto 0 auto; }
   .submit-page .content h1 {
     display: none; }
+
 .submit-page .side {
   display: none; }
+
 .submit-page .formtabs-content {
   border-top: 0;
   padding-top: 0; }
   .submit-page .formtabs-content .submit_text.enabled.roundfield .md {
     color: #a38d6d; }
+
 .submit-page .roundfield {
   padding: 16px;
   width: 524px;
@@ -2168,10 +2283,13 @@ div.titlebox span.number:after {
     text-transform: capitalize; }
   .submit-page .roundfield label {
     color: #a38d6d; }
+
 .submit-page .infobar {
   display: none !important; }
+
 .submit-page .footer-parent {
   display: none; }
+
 .submit-page #newlink.submit.content {
   width: 524px;
   margin: 0 auto; }
@@ -2227,8 +2345,10 @@ div.titlebox span.number:after {
 
 .submit_text ol {
   margin-left: -1em; }
+
 .submit_text ul {
   margin-left: -1em; }
+
 .submit_text.enabled.roundfield {
   background-color: #0079d3; }
   .submit_text.enabled.roundfield .md {
@@ -2238,12 +2358,15 @@ div.titlebox span.number:after {
   height: 156px; }
   .search-page #header .pagename a {
     display: none; }
+
 .search-page #header-bottom-left {
   top: 56px; }
+
 .search-page .searchpane {
   margin: 0;
   padding: 0;
   position: relative; }
+
 .search-page #search {
   position: absolute;
   top: -128px;
@@ -2252,6 +2375,7 @@ div.titlebox span.number:after {
   .search-page #search input[type=text] {
     min-width: 320px;
     width: 320px; }
+
 .search-page #previoussearch label {
   position: absolute;
   margin: 0;
@@ -2264,6 +2388,7 @@ div.titlebox span.number:after {
   box-shadow: 0 2px 1.5px 0 rgba(0, 0, 0, 0.12), 0 0 4px 0 rgba(0, 0, 0, 0.12);
   cursor: pointer;
   margin-top: -2px; }
+
 .search-page #previoussearch p a#search_showmore {
   position: absolute;
   left: 324px;
@@ -2275,8 +2400,10 @@ div.titlebox span.number:after {
   background-position: -49px -168px;
   overflow: hidden;
   font-size: 0; }
+
 .search-page #previoussearch input {
   color: #a38d6d; }
+
 .search-page .searchfacets {
   border: 1px solid #edf1f3;
   border-radius: 2px;
@@ -2285,13 +2412,16 @@ div.titlebox span.number:after {
   background-color: #0f0f0f;
   border-radius: 0 0 2px 2px;
   max-width: none; }
+
 .search-page .morelink {
   top: 384px; }
+
 .search-page .side {
   margin-top: 264px; }
 
 .combined-search-page #search input[type=text] {
   color: #a38d6d !important; }
+
 .combined-search-page .search-submit-button {
   position: relative;
   left: -42px;
@@ -2308,6 +2438,7 @@ div.titlebox span.number:after {
     background-color: rgba(158, 158, 158, 0.2); }
   .combined-search-page .search-submit-button .search-icon {
     display: none; }
+
 .combined-search-page .search-result-group {
   max-width: none;
   min-width: 0;
@@ -2337,6 +2468,7 @@ div.titlebox span.number:after {
         background: #181818; }
   .combined-search-page .search-result-group footer .nav-buttons {
     margin: 0 0 16px 0; }
+
 .combined-search-page .search-expando.collapsed:before {
   background: rgba(255, 255, 255, 0);
   background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, #ffffff 100%);
@@ -2345,18 +2477,23 @@ div.titlebox span.number:after {
   background: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%, #ffffff 100%);
   background: -ms-linear-gradient(top, rgba(255, 255, 255, 0) 0%, #ffffff 100%);
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #0f0f0f 100%); }
+
 .combined-search-page .search-expando-button {
   color: #cec59f; }
   .combined-search-page .search-expando-button:hover {
     text-shadow: 0px 0px 1px #ac9c5b; }
+
 .combined-search-page .search-result-body {
   padding: 0; }
   .combined-search-page .search-result-body .md p {
     color: #a38d6d; }
+
 .combined-search-page .search-result-subreddit .search-result-meta {
   padding: 4px 0; }
+
 .combined-search-page .search-result-subreddit .search-subscribe-button {
   border-radius: 2px; }
+
 .combined-search-page .search-result {
   margin: 16px 0 20px; }
   .combined-search-page .search-result .search-result-meta {
@@ -2372,6 +2509,7 @@ div.titlebox span.number:after {
   .combined-search-page .search-result.has-thumbnail > .thumbnail {
     margin-left: 0;
     margin-right: 16px; }
+
 .combined-search-page .search-result-listing .search-result-subreddit {
   display: inline-block;
   width: calc(33% - 8px);
@@ -2394,13 +2532,16 @@ div.titlebox span.number:after {
 
 .searchfacets .title {
   margin: 0; }
+
 .searchfacets .list {
   margin: 0; }
+
 .searchfacets h4.title {
   color: #738491;
   margin: 0 0 8px 0; }
   .searchfacets h4.title:first-letter {
     text-transform: capitalize; }
+
 .searchfacets .facet.count {
   color: #a38d6d;
   font-weight: normal; }
@@ -2431,6 +2572,7 @@ div.titlebox span.number:after {
   color: rgba(255, 255, 255, 0.8); }
   .fancy-settings h1 strong {
     color: white; }
+
 .fancy-settings .pretty-form {
   padding-top: 0; }
 
@@ -2463,6 +2605,7 @@ div.titlebox span.number:after {
   margin-bottom: 16px; }
   .stylesheet-customize-container .pretty-form .sheets {
     margin-right: 0; }
+
 .stylesheet-customize-container h2 {
   display: none; }
 
@@ -2486,15 +2629,15 @@ div.titlebox span.number:after {
     z-index: 100; }
   #images:after {
     /*
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 800px;
-    left: 0;
-    bottom: -1200px;
-    z-index: 100;
-    //background: $color_3 $url_5 no-repeat 50% 50%;
-    */ }
+		content: "";
+		position: absolute;
+		width: 100%;
+		height: 800px;
+		left: 0;
+		bottom: -1200px;
+		z-index: 100;
+		//background: $color_3 $url_5 no-repeat 50% 50%;
+		*/ }
 
 .flair {
   border: none;
@@ -2553,25 +2696,31 @@ div.titlebox span.number:after {
 
 .pinHeader-sub #sr-header-area {
   background: url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/master/Images/header-img-asc.png") 50% 0; }
+
 .pinHeader-sub #header-bottom-left {
   margin-top: 0; }
 
 .pinHeader-subanduser #sr-header-area {
   background: url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/master/Images/header-img-asc.png") 50% 0; }
+
 .pinHeader-subanduser #header-bottom-left {
   margin-top: 0; }
 
 .pinHeader-header:before {
   display: none !important; }
+
 .pinHeader-header .content {
   margin-top: 12px !important; }
+
 .pinHeader-header .side {
   margin-top: 164px; }
+
 .pinHeader-header #header {
   top: 0;
   background-image: url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/master/Images/header-img-asc.png");
   height: 84px;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.24); }
+
 .pinHeader-header.res.comments-page .side {
   margin-top: 290px; }
 
@@ -2662,6 +2811,7 @@ ul.res-search-tabs a {
     transform: translateY(76px);
     -webkit-transform: translateY(76px);
     opacity: 0; } }
+
 @-o-keyframes toast {
   0% {
     transform: translateY(76px);
@@ -2691,6 +2841,7 @@ ul.res-search-tabs a {
     transform: translateY(76px);
     -webkit-transform: translateY(76px);
     opacity: 0; } }
+
 @-moz-keyframes toast {
   0% {
     transform: translateY(76px);
@@ -2720,6 +2871,7 @@ ul.res-search-tabs a {
     transform: translateY(76px);
     -webkit-transform: translateY(76px);
     opacity: 0; } }
+
 @keyframes toast {
   0% {
     transform: translateY(76px);
@@ -2749,6 +2901,7 @@ ul.res-search-tabs a {
     transform: translateY(76px);
     -webkit-transform: translateY(76px);
     opacity: 0; } }
+
 @-webkit-keyframes upvote {
   0% {
     transform: scale(0, 0);
@@ -2762,6 +2915,7 @@ ul.res-search-tabs a {
     transform: scale(1.5, 1.5);
     -webkit-transform: scale(1.5, 1.5);
     opacity: 0; } }
+
 @-moz-keyframes upvote {
   0% {
     transform: scale(0, 0);
@@ -2775,6 +2929,7 @@ ul.res-search-tabs a {
     transform: scale(1.5, 1.5);
     -webkit-transform: scale(1.5, 1.5);
     opacity: 0; } }
+
 @-o-keyframes upvote {
   0% {
     transform: scale(0, 0);
@@ -2788,6 +2943,7 @@ ul.res-search-tabs a {
     transform: scale(1.5, 1.5);
     -webkit-transform: scale(1.5, 1.5);
     opacity: 0; } }
+
 @keyframes upvote {
   0% {
     transform: scale(0, 0);
@@ -2801,6 +2957,7 @@ ul.res-search-tabs a {
     transform: scale(1.5, 1.5);
     -webkit-transform: scale(1.5, 1.5);
     opacity: 0; } }
+
 .beta-hint a {
   margin-left: -16px;
   width: 16px;
@@ -2990,10 +3147,13 @@ html.res-commentBoxes .comment {
 
 body:not(.search-page) .side:before {
   top: 48px; }
+
 body:not(.search-page) .side .titlebox h1.redditname {
   top: 256px; }
+
 body:not(.search-page) .titlebox .fancy-toggle-button {
   top: 262px; }
+
 body:not(.search-page) .titlebox span.subscribers {
   top: 284px; }
 
@@ -3069,10 +3229,12 @@ body .btn, body button {
 
 .combined-search-page .search-result .search-result-header .search-title {
   color: #DFCF99; }
+
 .combined-search-page .search-result a {
   color: #DFCF99; }
   .combined-search-page .search-result a > mark {
     color: #DFCF99; }
+
 .combined-search-page .search-result .search-comments {
   color: #DFCF99; }
 
@@ -3104,6 +3266,7 @@ a[href$="/spoiler"] {
     content: ""; }
   a[href$="/spoiler"][title]::before {
     content: attr(title) ""; }
+
 a[href$="/spoiler"]:hover, a[href$="#spoiler"]:hover, a[href$="/s"]:hover, a[href$="#s"]:hover {
   color: #FFF !important; }
 
@@ -3544,6 +3707,7 @@ a[href$="/spoiler"]:hover, a[href$="#spoiler"]:hover, a[href$="/s"]:hover, a[hre
   color: #fff !important;
   padding: 1px 3px !important;
   pointer-events: none; }
+
 .side a[href^="//#invasion"] {
   background: #800000 !important;
   border-color: #000 !important;
@@ -3557,6 +3721,7 @@ a[href$="/spoiler"]:hover, a[href$="#spoiler"]:hover, a[href$="/s"]:hover, a[hre
   color: #fff !important;
   padding: 1px 3px !important;
   pointer-events: none; }
+
 .side a[href^="//#sdl"] {
   color: #FFF !important;
   font-family: verdana, serif !important;
@@ -3564,6 +3729,7 @@ a[href$="/spoiler"]:hover, a[href$="#spoiler"]:hover, a[href$="/s"]:hover, a[hre
   font-weight: bold !important;
   text-shadow: 1px 1px 2px black, 0 0 1em green, 0 0 0.2em green !important;
   pointer-events: none; }
+
 .side a[href^="//#hcl"] {
   color: #FFF !important;
   font-family: verdana, serif !important;
@@ -3571,6 +3737,7 @@ a[href$="/spoiler"]:hover, a[href$="#spoiler"]:hover, a[href$="/s"]:hover, a[hre
   font-weight: bold !important;
   text-shadow: 1px 1px 2px black, 0 0 1em red, 0 0 0.2em red !important;
   pointer-events: none; }
+
 .side a[href^="//#n7"] {
   background: #f3f3f3 !important;
   border-color: #000 !important;
@@ -3584,6 +3751,7 @@ a[href$="/spoiler"]:hover, a[href$="#spoiler"]:hover, a[href$="/s"]:hover, a[hre
   color: black !important;
   padding: 1px 3px !important;
   pointer-events: none; }
+
 .side a[href^="//#hardcore"] {
   background: #800080 !important;
   border-color: #000 !important;
@@ -3597,6 +3765,7 @@ a[href$="/spoiler"]:hover, a[href$="#spoiler"]:hover, a[href$="/s"]:hover, a[hre
   color: #fff !important;
   padding: 1px 3px !important;
   pointer-events: none; }
+
 .side a[href^="//#op"] {
   background: #FFD700 !important;
   color: #000 !important;
@@ -3604,22 +3773,27 @@ a[href$="/spoiler"]:hover, a[href$="#spoiler"]:hover, a[href$="/s"]:hover, a[hre
   font-size: small !important;
   font-weight: bold !important;
   pointer-events: none; }
+
 .side a[href^="//#ggg"] {
   color: red !important;
   font-family: verdana, serif !important;
   font-size: small !important;
   font-weight: bold !important;
   pointer-events: none; }
+
 .side a[href^="//#gggmod"] {
   color: #3BB9FF !important;
   font-family: verdana, serif !important;
   font-size: small !important;
   font-weight: bold !important;
   pointer-events: none; }
+
 .side a[href="/s"] {
   display: none; }
+
 .side a[href="/smallText"] {
   font-size: smaller; }
+
 .side a[href^='https://pathofexile.com/shop/'] {
   position: absolute;
   top: 49px;
@@ -3654,5 +3828,3 @@ a.author[href$="/RhysGGG"],
 a.author[href$="/Dan_GGG"] {
   color: red !important;
   font-weight: bold; }
-
-/*# sourceMappingURL=poe-css.css.map */

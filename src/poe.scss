@@ -174,12 +174,12 @@ $url_5: url(%%faq%%);
 $url_6: url(%%footer%%);
 */
 
-//$url_0: url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/master/Images/header-img.png");
-$url_0: url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/master/Images/header-img-asc.png");
+//$url_0: url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/master/Images/header-img.jpg");
+$url_0: url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/master/Images/header-img-asc.jpg");
 //$url_1: url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/master/Images/spritesheet.png");
 $url_1: url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/master/Images/spritesheet-asc.png");
 $url_2: url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/master/Images/noresults.png");
-$url_3: url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/master/Images/sidebarimg.png");
+$url_3: url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/master/Images/sidebarimg.jpg");
 $url_4: url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/master/Images/commentbox.png");
 //$url_7: url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/master/Images/header-logo.png");
 $url_7: url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/master/Images/header-logo-asc.png");
@@ -189,7 +189,7 @@ $url_10: url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/mast
 //$url_11: url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/master/Images/poe-thumb.png");
 $url_11: url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/master/Images/poe-thumb-asc.png");
 $url_12: url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/master/Images/weapon-spacer.png");
-$url_13: url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/master/Images/asc-classes-sprite.png");
+$url_13: url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/master/Images/asc-classes-sprite.jpg");
 $url_14: url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/master/Images/chisel.png");
 
 //@extend-elements
@@ -1529,7 +1529,7 @@ button {
 }
 .thumbnail {
 	width: 80px;
-	height: 80px;
+	height: 56px;
 	margin: 0 16px 0 0;
 	img {
 		min-height: 56px;
