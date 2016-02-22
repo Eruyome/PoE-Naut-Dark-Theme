@@ -32,8 +32,8 @@ If you don't like the alternating colors for comments (child-comments), go to:
 > Highlights comment boxes for easier reading / placefinding in large threads.
 
 ## Screenshots
-
-![Screenshot](/screenshots/scr-01-min-update.png?raw=true "Screenshot 01") 
-![Screenshot](/screenshots/scr-02-min.png?raw=true "Screenshot 02")
-![Screenshot](/screenshots/scr-03-min.png?raw=true "Screenshot 03")
-![Screenshot](/screenshots/scr-04-min.png?raw=true "Screenshot 04")
+https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/master/images-uncompressed/screenshots/scr-01-min-update.png
+![Screenshot](/images-uncompressed/screenshots/scr-01-min-update.png?raw=true "Screenshot 01") 
+![Screenshot](/images-uncompressed//screenshots/scr-02-min.png?raw=true "Screenshot 02")
+![Screenshot](/images-uncompressed//screenshots/scr-03-min.png?raw=true "Screenshot 03")
+![Screenshot](/images-uncompressed//screenshots/scr-04-min.png?raw=true "Screenshot 04")
