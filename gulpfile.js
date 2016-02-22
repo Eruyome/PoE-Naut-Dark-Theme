@@ -23,11 +23,11 @@ gulp.task('styles', function() {
 	gulp.src('src/*.scss')
 		.pipe(sass({outputStyle: 'nested'})
 			.on('error', sass.logError))
-		.pipe(gulp.dest('./css/'))
+		.pipe(gulp.dest('./test/'))
 		.pipe(rename({suffix: '.min'}))
 		//.pipe(nano({zindex:false}))
 		.pipe(minifyCss())
-		.pipe(gulp.dest('./css/'))
+		.pipe(gulp.dest('./test/'))
 	;
 });
 

@@ -3,3 +3,4 @@
 *.css.map
 /images-uncompressed/old_images
 /node_modules
+/test
