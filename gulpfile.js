@@ -20,15 +20,32 @@ gulp.task('images', function() {
 
 /* Compile sass and minify css */
 gulp.task('styles', function() {
+	/* Compile nested (adding @charset "utf-8") */
 	gulp.src('src/*.scss')
 		.pipe(sass({outputStyle: 'nested'})
 			.on('error', sass.logError))
-		.pipe(gulp.dest('./test/'))
+		.pipe(gulp.dest('./css/'))
+	;
+	/* Compile compressed (no added charset) */
+	gulp.src('src/*.scss')
+		.pipe(sass({outputStyle: 'compressed'})
+			.on('error', sass.logError))
 		.pipe(rename({suffix: '.min'}))
 		//.pipe(nano({zindex:false}))
 		.pipe(minifyCss())
-		.pipe(gulp.dest('./test/'))
+		.pipe(gulp.dest('./css/'))
 	;
+	/* Original operations
+	 gulp.src('src/*.scss')
+	 .pipe(sass({outputStyle: 'nested'})
+	 .on('error', sass.logError))
+	 .pipe(gulp.dest('./test/'))
+	 .pipe(rename({suffix: '.min'}))
+	 //.pipe(nano({zindex:false}))
+	 .pipe(minifyCss())
+	 .pipe(gulp.dest('./test/'))
+	 ;
+	 */
 });
 
 /* Watch sass file changes */
