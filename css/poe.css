@@ -352,7 +352,7 @@ a {
       color: #DFCF99; }
   .side:before {
     height: 192px;
-    background-image: url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/master/Images/sidebarimg.png");
+    background-image: url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/master/Images/sidebarimg.jpg");
     background-color: #dbdbdb;
     content: "";
     display: block;
@@ -466,7 +466,7 @@ a {
   margin: 0;
   height: 196px;
   border: none;
-  background: #30333a url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/master/Images/header-img-asc.png") no-repeat 50% 50%;
+  background: #30333a url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/master/Images/header-img-asc.jpg") no-repeat 50% 50%;
   background-size: cover;
   z-index: 1;
   box-shadow: 0 2px 1.5px 0 rgba(0, 0, 0, 0.12), 0 0 4px 0 rgba(0, 0, 0, 0.12); }
@@ -2695,13 +2695,13 @@ div.titlebox span.number:after {
   display: none; }
 
 .pinHeader-sub #sr-header-area {
-  background: url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/master/Images/header-img-asc.png") 50% 0; }
+  background: url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/master/Images/header-img-asc.jpg") 50% 0; }
 
 .pinHeader-sub #header-bottom-left {
   margin-top: 0; }
 
 .pinHeader-subanduser #sr-header-area {
-  background: url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/master/Images/header-img-asc.png") 50% 0; }
+  background: url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/master/Images/header-img-asc.jpg") 50% 0; }
 
 .pinHeader-subanduser #header-bottom-left {
   margin-top: 0; }
@@ -2717,7 +2717,7 @@ div.titlebox span.number:after {
 
 .pinHeader-header #header {
   top: 0;
-  background-image: url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/master/Images/header-img-asc.png");
+  background-image: url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/master/Images/header-img-asc.jpg");
   height: 84px;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.24); }
 
@@ -3171,7 +3171,7 @@ body:not(.search-page) .morelink {
 #header {
   background-size: cover;
   box-shadow: none;
-  background: transparent url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/master/Images/header-img-asc.png") 50% 50%; }
+  background: transparent url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/master/Images/header-img-asc.jpg") 50% 50%; }
   #header .tabmenu:before {
     display: none; }
   #header #header-img.default-header, #header #header-img {
@@ -3471,7 +3471,7 @@ a[href$="/spoiler"]:hover, a[href$="#spoiler"]:hover, a[href$="/s"]:hover, a[hre
   width: 29px;
   min-width: 29px !important;
   height: 16px;
-  background: url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/master/Images/asc-classes-sprite.png") no-repeat scroll 0 0 transparent;
+  background: url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/master/Images/asc-classes-sprite.jpg") no-repeat scroll 0 0 transparent;
   background-size: 91px;
   border-radius: 2px;
   border: 1px solid #151313; }
