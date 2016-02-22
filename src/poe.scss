@@ -1939,6 +1939,7 @@ button {
 	border-radius: 2px;
 	box-shadow: 0 0 16px $color_42;
 	background-color: $color_comment_even;
+	z-index: 1000;
 	h2 {
 		margin-bottom: 4px;
 		background-color: transparent;
@@ -3689,12 +3690,14 @@ div {
 	color: $color_36;
 	padding-left: 0;
 	margin-right: inherit;
+	/*
 	&:before {
 		margin-right: 3px;
 		height: auto;
 		content: " ";
 		margin-left: 4px;
 	}
+	*/
 }
 .footer-parent {
 	height: 800px;
@@ -4732,6 +4735,7 @@ a {
 	background-size: 91px;
 	border-radius: 2px;
 	border: 1px solid $color_content_border;
+	font-size: 0;
 }
 
 .flair-asc-slayer {
@@ -5106,6 +5110,11 @@ a {
 		font-family: $font_collection_title;
 		text-shadow: 0px 0px 2px #000000;
 		padding: 80px 15px 15px;
+
+		@media only screen and (max-width: 330px) {
+			right: auto;
+			left: 585px;
+		}
 	}
 
 }
