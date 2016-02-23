@@ -23,7 +23,8 @@ To update the Userstyle do one of the following:
 
 ## Bug Reporting / Suggestions  
 
-If you want to report some bugs or make some suggestions please create an issue here [Github Issues](https://github.com/Eruyome/PoE-Naut-Dark-Theme/issues)
+If you want to report some bugs or make some suggestions please create an issue here [Github Issues](https://github.com/Eruyome/PoE-Naut-Dark-Theme/issues). **Always check for an updated version of the script if something seems to be broken.** It may have already been fixed.
+
 
 ## Tips  
 
