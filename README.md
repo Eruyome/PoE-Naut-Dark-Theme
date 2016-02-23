@@ -23,7 +23,9 @@ To update the Userstyle do one of the following:
 
 ## Bug Reporting / Suggestions  
 
-If you want to report some bugs or make some suggestions please create an issue here [Github Issues](https://github.com/Eruyome/PoE-Naut-Dark-Theme/issues). **Always check for an updated version of the script if something seems to be broken.** It may have already been fixed.
+If you want to report some bugs or make some suggestions please create an issue here [Github Issues](https://github.com/Eruyome/PoE-Naut-Dark-Theme/issues). **Always check for an updated version of the script if something seems to be broken.** It may have already been fixed. 
+
+If this userstyle looks like [this](/images-uncompressed/screenshots/error.png?raw=true), you're probably using RES Night-Mode and should disable it. I'm probably able to fix at least the most broken stuff for Night-Mode but I'm not planning to style for Night-Mode. Especially not since I'm planning to remake this userstyle, this time with a dark and light theme and some other changes.
 
 
 ## Tips  
