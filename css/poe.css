@@ -60,12 +60,12 @@ body .btn, body button {
   box-shadow: 0 2px 1.5px 0 rgba(0, 0, 0, 0.12), 0 0 4px 0 rgba(0, 0, 0, 0.12); }
 
 #sr-header-area .separator, #sr-header-area .sr-bar a, #sr-header-area .dropdown.srdrop .selected, #sr-more-link {
-  background-color: transparent;
+  background-color: transparent !important;
   color: rgba(255, 255, 255, 0.4);
   transition: all 0.15s ease; }
 
 #sr-header-area .sr-bar a:hover, #sr-header-area .dropdown.srdrop .selected:hover, #sr-more-link:hover {
-  background-color: transparent;
+  background-color: transparent !important;
   border: none;
   transition: all 0.15s ease; }
 
@@ -901,11 +901,11 @@ a {
     background-color: rgba(0, 0, 0, 0.05); }
   .arrow.up {
     height: 20px;
-    background-position: -0px -80px;
+    background-position: -0px -80px !important;
     transition: background-color 0.25s ease; }
   .arrow.upmod {
     height: 20px;
-    background-position: -32px -80px;
+    background-position: -32px -80px !important;
     position: relative; }
     .arrow.upmod:focus:after {
       position: absolute;
@@ -922,7 +922,7 @@ a {
       -webkit-animation: upvote 0.35s ease-out forwards; }
   .arrow.down {
     height: 20px;
-    background-position: -64px -80px;
+    background-position: -64px -80px !important;
     transition: background-color 0.25s ease; }
     .arrow.down:after {
       display: block;
@@ -950,7 +950,7 @@ a {
       margin-left: 48px; }
   .arrow.downmod {
     height: 20px;
-    background-position: -0px -100px; }
+    background-position: -0px -100px !important; }
 
 .thumbnail {
   width: 80px;
@@ -2583,7 +2583,7 @@ div.titlebox span.number:after {
   .tabmenu li {
     margin: 0 !important; }
     .tabmenu li a {
-      background-color: transparent;
+      background-color: transparent !important;
       color: #DFCF99;
       border: none;
       font-size: 14px; }
@@ -3092,6 +3092,13 @@ html.res-commentBoxes .comment {
   margin-left: 0 !important;
   margin-right: 0 !important; }
 
+.res-nightmode .thumbnail.self, .res-nightmode .guiders_arrow {
+  -webkit-filter: none !important;
+  filter: none !important; }
+
+.res-nightmode #sr-header-area, .res-nightmode #sr-more-link {
+  background-color: transparent !important; }
+
 .res:not(.res-nightmode) .commentarea .comment {
   background-color: #0f0f0f !important; }
   .res:not(.res-nightmode) .commentarea .comment .comment {
@@ -3242,10 +3249,25 @@ body .btn, body button {
 .combined-search-page .search-result .search-comments {
   color: #DFCF99; }
 
+.res-nightmode a, .res-nightmode .md a, .res-nightmode .share-button .option, .res-nightmode #subscribe a, .res-nightmode .share .option, .res-nightmode .wired a, .res-nightmode .side a, .res-nightmode .link .score.dislikes, .res-nightmode .linkcompressed .score.dislikes, .res-nightmode a[rel="tag"], .res-nightmode .dsq-help, .res-nightmode #authorInfoToolTip h3 a, .res-nightmode .reddiquette, .res-nightmode .parent .author, .res-nightmode .parent .subreddit, .res-nightmode .combined-search-page .search-result a, .res-nightmode .combined-search-page .search-result a > mark, .res-nightmode .hoverHelp, .res-nightmode .deepthread a, .res-nightmode .policy-page .md h1 a, .res-nightmode .policy-page .md h3 a {
+  color: #DFCF99 !important; }
+
+.res-nightmode:not(.res-nightMode-coloredLinks) .thing:not(.stickied) .title:visited, .res-nightmode:not(.res-nightMode-coloredLinks) .thing.visited:not(.stickied) .title, .res-nightmode:not(.res-nightMode-coloredLinks).combined-search-page .search-result a:visited, .res-nightmode:not(.res-nightMode-coloredLinks).combined-search-page .search-result a:visited > mark {
+  color: #6D6A65 !important; }
+
+.res-nightmode body, .res-nightmode body .content, .res-nightmode .modal-body, .res-nightmode .side, .res-nightmode .icon-menu a, .res-nightmode .side .leavemoderator, .res-nightmode .side .leavecontributor-button, .res-nightmode .side .titlebox, .res-nightmode .side .spacer .titlebox .redditname, .res-nightmode .side .titlebox .flairtoggle, .res-nightmode .side .usertext-body .md ol, .res-nightmode .side .usertext-body .md ol ol, .res-nightmode .side .usertext-body .md ol ol li, .res-nightmode .modactionlisting table *, .res-nightmode .side .recommend-box .rec-item {
+  border-color: #2C2C2C !important; }
+
+.res-nightmode .sidebar .md, body.res-nightmode, .res-nightmode .side, .res-nightmode .side *, .res-nightmode .side .spacer, .res-nightmode .content, .res-nightmode .traffic-tables .traffic-table tr, .res-nightmode .parentComment .md, .res-nightmode .post-body.entry-content, .res-nightmode .dsq-auth-header, .res-nightmode .instructions .preftable th, .res-nightmode #BigEditor .markdownEditor a, .res-nightmode #BigEditor .markdownEditor .RESMacroDropdownTitle, .res-nightmode #REScommentSubToggle, .res-nightmode #alert_message {
+  color: #a38d6d; }
+
+.res-nightmode body {
+  background-color: #1C1D1B !important; }
+
+/*  Flairs  */
 .flairselector h2, .linefield .title, body .content .sitetable .link .title a:hover, .link .entry .tagline a:hover, .comment .author:hover {
   color: #DFCF99; }
 
-/*  Flairs  */
 .linkflair-QA .arrow.down {
   display: none; }
 
@@ -3811,7 +3833,7 @@ a[href$="/spoiler"]:hover, a[href$="#spoiler"]:hover, a[href$="/s"]:hover, a[hre
   font-family: "FontinRegular", "Fontin Regular", "Fontin", "Book Antiqua", Cambria, Verdana, Arial, Helvetica, sans-serif;
   text-shadow: 0px 0px 2px #000000;
   padding: 80px 15px 15px; }
-  @media only screen and (max-width: 330px) {
+  @media only screen and (max-width: 930px) {
     .side a[href^='https://pathofexile.com/shop/'] {
       right: auto;
       left: 585px; } }

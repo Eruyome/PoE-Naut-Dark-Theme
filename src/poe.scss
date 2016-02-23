@@ -250,7 +250,7 @@ $url_14: url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/mast
 //original selectors
 //#sr-header-area .sr-bar a, #sr-more-link, #sr-header-area .separator, #sr-header-area .dropdown.srdrop .selected
 %extend_6 {
-	background-color: transparent;
+	background-color: transparent !important;
 	color: $color_font_link_primary4;
 	transition: all 0.15s ease;
 }
@@ -258,7 +258,7 @@ $url_14: url("https://raw.githubusercontent.com/Eruyome/PoE-Naut-Dark-Theme/mast
 //original selectors
 //#sr-header-area .sr-bar a:hover, #sr-more-link:hover, #sr-header-area .dropdown.srdrop .selected:hover
 %extend_7 {
-	background-color: transparent;
+	background-color: transparent !important;
 	border: none;
 	transition: all 0.15s ease;
 }
@@ -1469,12 +1469,12 @@ button {
 	}
 	&.up {
 		height: 20px;
-		background-position: -0px -80px;
+		background-position: -0px -80px !important;
 		transition: background-color 0.25s ease;
 	}
 	&.upmod {
 		height: 20px;
-		background-position: -32px -80px;
+		background-position: -32px -80px !important;
 		position: relative;
 		&:focus:after {
 			position: absolute;
@@ -1493,7 +1493,7 @@ button {
 	}
 	&.down {
 		height: 20px;
-		background-position: -64px -80px;
+		background-position: -64px -80px !important;
 		transition: background-color 0.25s ease;
 		&:after {
 			display: block;
@@ -1524,7 +1524,7 @@ button {
 	}
 	&.downmod {
 		height: 20px;
-		background-position: -0px -100px;
+		background-position: -0px -100px !important;
 	}
 }
 .thumbnail {
@@ -3609,7 +3609,7 @@ div {
 	li {
 		margin: 0 !important;
 		a {
-			background-color: transparent;
+			background-color: transparent !important;
 			color: $color_6;
 			border: none;
 			font-size: 14px;
@@ -4252,6 +4252,14 @@ html.res-commentBoxes .comment {
 	margin-right: 0 !important;
 }
 
+.res-nightmode .thumbnail.self, .res-nightmode .guiders_arrow {
+	-webkit-filter : none !important;
+	filter: none !important;
+}
+.res-nightmode #sr-header-area, .res-nightmode #sr-more-link {
+	background-color: transparent !important;
+}
+
 .res:not(.res-nightmode) .commentarea .comment {
 	background-color: $color_3 !important;
 	.comment {
@@ -4468,11 +4476,27 @@ body {
 	}
 }
 
-.flairselector h2, .linefield .title, body .content .sitetable .link .title a:hover, .link .entry .tagline a:hover, .comment .author:hover {
-	color: $color_font_link_primary;
+.res-nightmode a, .res-nightmode .md a, .res-nightmode .share-button .option, .res-nightmode #subscribe a, .res-nightmode .share .option, .res-nightmode .wired a, .res-nightmode .side a, .res-nightmode .link .score.dislikes, .res-nightmode .linkcompressed .score.dislikes, .res-nightmode a[rel="tag"], .res-nightmode .dsq-help, .res-nightmode #authorInfoToolTip h3 a, .res-nightmode .reddiquette, .res-nightmode .parent .author, .res-nightmode .parent .subreddit, .res-nightmode .combined-search-page .search-result a, .res-nightmode .combined-search-page .search-result a > mark, .res-nightmode .hoverHelp, .res-nightmode .deepthread a, .res-nightmode .policy-page .md h1 a, .res-nightmode .policy-page .md h3 a {
+	color: $color_font_link_primary !important;
+}
+.res-nightmode:not(.res-nightMode-coloredLinks) .thing:not(.stickied) .title:visited, .res-nightmode:not(.res-nightMode-coloredLinks) .thing.visited:not(.stickied) .title, .res-nightmode:not(.res-nightMode-coloredLinks).combined-search-page .search-result a:visited, .res-nightmode:not(.res-nightMode-coloredLinks).combined-search-page .search-result a:visited>mark {
+	color: $color_73 !important;
+}
+.res-nightmode body, .res-nightmode body .content, .res-nightmode .modal-body, .res-nightmode .side, .res-nightmode .icon-menu a, .res-nightmode .side .leavemoderator, .res-nightmode .side .leavecontributor-button, .res-nightmode .side .titlebox, .res-nightmode .side .spacer .titlebox .redditname, .res-nightmode .side .titlebox .flairtoggle, .res-nightmode .side .usertext-body .md ol, .res-nightmode .side .usertext-body .md ol ol, .res-nightmode .side .usertext-body .md ol ol li, .res-nightmode .modactionlisting table *, .res-nightmode .side .recommend-box .rec-item {
+	border-color: $color_button_border !important;
+}
+.res-nightmode .sidebar .md, body.res-nightmode, .res-nightmode .side, .res-nightmode .side *, .res-nightmode .side .spacer, .res-nightmode .content, .res-nightmode .traffic-tables .traffic-table tr, .res-nightmode .parentComment .md, .res-nightmode .post-body.entry-content, .res-nightmode .dsq-auth-header, .res-nightmode .instructions .preftable th, .res-nightmode #BigEditor .markdownEditor a, .res-nightmode #BigEditor .markdownEditor .RESMacroDropdownTitle, .res-nightmode #REScommentSubToggle, .res-nightmode #alert_message {
+	color: $color_font_default;
+}
+.res-nightmode body {
+	background-color: #1C1D1B !important;
 }
 
 /*  Flairs  */
+
+.flairselector h2, .linefield .title, body .content .sitetable .link .title a:hover, .link .entry .tagline a:hover, .comment .author:hover {
+	color: $color_font_link_primary;
+}
 
 .linkflair-QA .arrow.down {
 	display: none;
@@ -5111,7 +5135,7 @@ a {
 		text-shadow: 0px 0px 2px #000000;
 		padding: 80px 15px 15px;
 
-		@media only screen and (max-width: 330px) {
+		@media only screen and (max-width: 930px) {
 			right: auto;
 			left: 585px;
 		}
